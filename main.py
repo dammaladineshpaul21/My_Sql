@@ -7,7 +7,7 @@ try:
     get_data = pd.read_sql("select * from poidetails", mydb)
     df = pd.DataFrame(get_data)
     df["name"].fillna("No College", inplace=True)
-    print(df)
+    print(mycursor)
 
 except Exception as e:
     print(e)
