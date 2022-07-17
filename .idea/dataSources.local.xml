@@ -13,7 +13,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="movies_2011" />
+            <name qname="db_librarymanagement" />
           </node>
         </introspection-scope>
       </schema-mapping>
